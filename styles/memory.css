@@ -99,11 +99,126 @@ height: 52px;
 flex-shrink: 0;
 border-radius: 8px;
 background: #FFF;
+
+  
+
+
 }
 #title{
     background: #FF5400;
     border-radius: 8px;
 }
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-section{
+    margin-right: 10px;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.section-title-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.b-btn{
+    background: #FF5400;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+}
+
+
+.section-item-title {
+    text-align: center;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-item-title-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 5px;
+
+
+}
+
+
+.text {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+.contact input[type=text],
+.contact input[type=email] {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 38px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    width: 50%;
+
+}
+
+#button-p {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 70%;
+    color: #FFF;
+
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+}
+
+
+.n-about-section{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 10px;
+}
+
+
+
+
+
 
 /* footer */
 footer {
@@ -131,3 +246,29 @@ footer {
 
 
 
+/* responsive medium device*/
+/* @media screen and(max-width: 600px){
+    .banner {
+            height: auto;
+            
+    }
+    .nav{
+        flex-direction: column;
+
+    }
+    .nav-title{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .row {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    
+} */
