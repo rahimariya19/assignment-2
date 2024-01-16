@@ -105,6 +105,29 @@ background: #FFF;
     border-radius: 8px;
 }
 
+/* footer */
+footer {
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);   
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.footer{
+    display: flex;
+    padding-top: 110px;
+    padding-left: 600px;
+}
+
+.footer-description{
+    padding-left: 330px;
+    padding-right: 330px;
+}
+.footer-text {
+    text-align: center;
+    padding-bottom: 110px;
+}
 
 
 
