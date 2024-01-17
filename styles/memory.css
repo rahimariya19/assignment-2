@@ -117,7 +117,9 @@ main {
 
 .about {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -247,28 +249,27 @@ footer {
 
 
 /* responsive medium device*/
-/* @media screen and(max-width: 600px){
-    .banner {
-            height: auto;
-            
-    }
-    .nav{
-        flex-direction: column;
-
-    }
-    .nav-title{
-        flex-direction: column;
+@media screen and(max-width: 600px){
+    
+    main {
+        margin: 0 auto;
     }
     .about{
         flex-direction: column;
         height: auto;
+        font-size: 5px;
         
     }
-
+    
     .row {
         flex-direction: column;
         grid-template-columns: repeat(1, 1fr);
 
     }
+    .banner-btn {
+        flex-direction: column;
     
-} */
+    
+    }
+    
+} 
